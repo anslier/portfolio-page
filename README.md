@@ -1,5 +1,9 @@
 My portfolio page
 
+## Screenshots
+
+![image](https://github.com/anslier/portfolio-page/blob/main/src/images/portfolio.png)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
