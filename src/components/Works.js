@@ -137,13 +137,15 @@ function Works() {
 						/>
 					</figure>
 					<div className="card-body">
-						<h2 className="card-title">alif-portfolio-page</h2>
-						<p class="pb-20">
+						<h2 className="card-title pt-20">
+							alif-portfolio-page
+						</h2>
+						<p class="">
 							A single page portfolio website to showcase my works
 							built with ReactJS and Tailwind CSS.
 						</p>
 						<div className="card-actions justify-end">
-							<a href="https://github.com/anslier/tensorflow-predict-weather-cnn">
+							<a href="https://github.com/anslier/portfolio-page">
 								<button class="btn btn-primary">
 									Github link
 								</button>
