@@ -17,16 +17,16 @@ function Hero() {
 						<h1 class="text-5xl font-bold">
 							Alif Asyraf Bin Rose Affendy
 						</h1>
-						<p class="py-6">
-							I am a full stack java developer and artificial
-							intelligence engineer. I am specialized in creating
-							a full stack web application with spring boot as the
-							backend and react for the frontend. I am also
-							proficient in building in machine learning and deep
-							learning models. I am open for new opportunities and
-							new projects.
-						</p>
 
+						<p class="py-6">
+							I am a full stack developer and a fully certified
+							artificial intelligence engineer. I am specialized
+							in creating a full stack web application with spring
+							boot as the backend and react for the frontend. I am
+							also proficient in building machine learning and
+							deep learning models. I am open for new
+							opportunities and projects.
+						</p>
 						<div class="btn-group">
 							<a href="#contact">
 								<button class="btn btn-primary">
