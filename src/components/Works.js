@@ -5,6 +5,7 @@ import carDatabase from "../images/car-database.png";
 import aphileus from "../images/aphileus.png";
 import portfolio from "../images/portfolio.png";
 import hurea from "../images/hurea.png";
+import productsDatabase from "../images/products-database.png";
 
 function Works() {
 	return (
@@ -13,8 +14,8 @@ function Works() {
 				My Works
 			</h4>
 
-			<div className="flex flex-row w-full gap-10 justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-8">
-				<div className="card card-compact w-96 bg-base-100 shadow-xl">
+			<div className="flex flex-row items-center justify-center w-full gap-10 mt-8 space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+				<div className="shadow-xl card card-compact w-96 bg-base-100">
 					<figure>
 						<img
 							// src="https://placeimg.com/400/225/arch"
@@ -33,7 +34,7 @@ function Works() {
 							using Spring Boot, Vaadin Flow and Deeplearning4j.
 							Secured using 0Auth2.
 						</p>
-						<div className="card-actions justify-end">
+						<div className="justify-end card-actions">
 							{/* <button className="btn btn-primary">
 								Github link
 							</button> */}
@@ -46,7 +47,7 @@ function Works() {
 					</div>
 				</div>
 
-				<div className="card card-compact w-96 bg-base-100 shadow-xl">
+				<div className="shadow-xl card card-compact w-96 bg-base-100">
 					<figure>
 						<img
 							// src="https://placeimg.com/400/225/arch"
@@ -63,7 +64,7 @@ function Works() {
 							temperatures. Built using Spring Boot, NextJS and
 							Deeplearning4j. Styled with Tailwind CSS.
 						</p>
-						<div className="card-actions justify-end">
+						<div className="justify-end card-actions">
 							<a href="https://github.com/alifskymind/hurea">
 								<button class="btn btn-primary">
 									Github link
@@ -73,7 +74,7 @@ function Works() {
 					</div>
 				</div>
 
-				<div className="card card-compact w-96 bg-base-100 shadow-xl">
+				<div className="shadow-xl card card-compact w-96 bg-base-100">
 					<figure>
 						<img
 							// src="https://placeimg.com/400/225/arch"
@@ -90,7 +91,7 @@ function Works() {
 							react complete will all CRUD operations and secured
 							using Spring Security JWT. Styled with MUI.
 						</p>
-						<div className="card-actions justify-end">
+						<div className="justify-end card-actions">
 							<a href="https://github.com/anslier/example-car-shop-database">
 								<button class="btn btn-primary">
 									Github link
@@ -101,8 +102,8 @@ function Works() {
 				</div>
 			</div>
 
-			<div className="flex flex-row w-full gap-10 justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4 mt-8">
-				<div className="card card-compact w-96 bg-base-100 shadow-xl">
+			<div className="flex flex-row items-center justify-center w-full gap-10 mt-8 space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+				<div className="shadow-xl card card-compact w-96 bg-base-100">
 					<figure>
 						<img
 							// src="https://placeimg.com/400/225/arch"
@@ -118,7 +119,7 @@ function Works() {
 							Predict the type of weather based on image provided
 							with cnn network using tensorflow framework.
 						</p>
-						<div className="card-actions justify-end">
+						<div className="justify-end card-actions">
 							<a href="https://github.com/anslier/tensorflow-predict-weather-cnn">
 								<button class="btn btn-primary">
 									Github link
@@ -128,7 +129,7 @@ function Works() {
 					</div>
 				</div>
 
-				<div className="card card-compact w-96 bg-base-100 shadow-xl">
+				<div className="shadow-xl card card-compact w-96 bg-base-100">
 					<figure>
 						<img
 							// src="https://placeimg.com/400/225/arch"
@@ -137,15 +138,42 @@ function Works() {
 						/>
 					</figure>
 					<div className="card-body">
-						<h2 className="card-title pt-20">
+						<h2 className="pt-20 card-title">
 							alif-portfolio-page
 						</h2>
 						<p class="">
 							A single page portfolio website to showcase my works
 							built with ReactJS and Tailwind CSS.
 						</p>
-						<div className="card-actions justify-end">
+						<div className="justify-end card-actions">
 							<a href="https://github.com/anslier/portfolio-page">
+								<button class="btn btn-primary">
+									Github link
+								</button>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				{/* projects database */}
+				<div className="shadow-xl card card-compact w-96 bg-base-100">
+					<figure>
+						<img
+							// src="https://placeimg.com/400/225/arch"
+							src={productsDatabase}
+							alt="productsDatabase"
+						/>
+					</figure>
+					<div className="card-body">
+						<h2 className="pt-20 card-title">products-database</h2>
+						<p class="">
+							Full stack web application with all CRUD
+							functionalities built using Spring Boot for backend,
+							ReactJS for frontend, MUI for the UI tools and
+							MariaDB.
+						</p>
+						<div className="justify-end card-actions">
+							<a href="https://github.com/anslier/products-database">
 								<button class="btn btn-primary">
 									Github link
 								</button>
