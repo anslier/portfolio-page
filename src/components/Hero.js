@@ -8,9 +8,9 @@ function Hero() {
 		<div>
 			<div class="hero min-h-screen bg-base-200">
 				<div class="hero-content flex-col lg:flex-row-reverse">
-					{/* <div class="flex flex-wrap justify-center"> */}
+					<div class="flex flex-wrap justify-center">
 						{/* <div class="w-6/12 sm:w-4/12 px-4"> */}
-						<div class="w-full sm:w-4/12 px-4">
+						<div class="w-48 px-4">
 							<img
 								// src="https://images.unsplash.com/photo-1657040298696-282743ad6406?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80"
 								// src={face}
@@ -20,7 +20,7 @@ function Hero() {
 								alt="{face}"
 							/>
 						</div>
-					{/* </div> */}
+					</div>
 					<div>
 						<h1 class="text-5xl font-bold">
 							Alif Asyraf Bin Rose Affendy
