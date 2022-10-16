@@ -10,7 +10,8 @@ function Hero() {
 					<img
 						src="https://images.unsplash.com/photo-1657040298696-282743ad6406?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80"
 						// src={face}
-						class="max-w-sm rounded-lg shadow-2xl"
+						// class="max-w-sm rounded-lg shadow-2xl"
+						class="shadow-lg rounded-full max-w-full h-auto align-middle border-none"
 						alt="{face}"
 					/>
 					<div>
