@@ -14,7 +14,7 @@ function Contact() {
 
 				<p className="pt-2 pb-12 text-gray-700 text-center text-2xl">
 					<a
-						href="mailto:webmaster@example.com"
+						href="mailto:alifasyrafrose@gmail.com"
 						class="text-blue-500"
 					>
 						alifasyrafrose@gmail.com
