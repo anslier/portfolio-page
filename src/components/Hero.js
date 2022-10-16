@@ -8,7 +8,7 @@ function Hero() {
 		<div>
 			<div class="hero min-h-screen bg-base-200">
 				<div class="hero-content flex-col lg:flex-row-reverse">
-					<div class="flex flex-wrap justify-center">
+					{/* <div class="flex flex-wrap justify-center"> */}
 						{/* <div class="w-6/12 sm:w-4/12 px-4"> */}
 						<div class="w-full sm:w-4/12 px-4">
 							<img
@@ -20,7 +20,7 @@ function Hero() {
 								alt="{face}"
 							/>
 						</div>
-					</div>
+					{/* </div> */}
 					<div>
 						<h1 class="text-5xl font-bold">
 							Alif Asyraf Bin Rose Affendy
