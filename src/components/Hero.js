@@ -1,7 +1,7 @@
 import React from "react";
 
 // import face from "../images/face.png";
-import face from "../images/passport.png";
+import passport from "../images/passport.png";
 
 function Hero() {
 	return (
