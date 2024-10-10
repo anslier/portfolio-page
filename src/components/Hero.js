@@ -27,13 +27,12 @@ function Hero() {
 						</h1>
 
 						<p class="py-6">
-							I am a full stack developer and a fully certified
-							artificial intelligence engineer. I am specialized
-							in creating a full stack web application with spring
-							boot as the backend and react for the frontend. I am
-							also proficient in building machine learning and
-							deep learning models. I am open for new
-							opportunities and projects.
+							I am a Full-Stack Software Engineer skilled in creating user-friendly
+							interfaces with HTML, CSS, and JavaScript, and building robust back-end systems
+							with PHP and SQL. Experienced in managing the entire software development
+							lifecycle, from design and development to testing and deployment.
+							Comfortable working with databases and optimizing query performance.
+							Familiar with AI/ML concepts and their potential applications in software development.
 						</p>
 						<div class="btn-group">
 							<a href="#contact">
