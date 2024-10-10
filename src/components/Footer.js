@@ -18,7 +18,7 @@ function Footer() {
 						/>
 					</svg>
 					<p>
-						Made with love by Alif Asyraf Bin Rose Affendy in 2022
+						Made with love by Alif Asyraf Bin Rose Affendy in 2024
 					</p>
 				</div>
 			</footer>
